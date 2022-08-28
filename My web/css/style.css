@@ -1,6 +1,12 @@
 body {
     background-color: rgb(55, 235, 160);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(../Images/bmw-e46-3-series-by--1_800x0w.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    /*color: white;*/
+    background-blend-mode:screen;
 }
 
 nav ul{
