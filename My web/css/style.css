@@ -5,12 +5,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
-    /*color: white;*/
     background-blend-mode:screen;
 }
 
 nav ul{
-   /* border: 2px solid white;*/
    border-top: 2px solid rgb(184, 184, 6);
    border-bottom: 2px solid rgb(184, 184, 6);
     list-style-type: none;
@@ -96,4 +94,46 @@ footer li{
 footer a:hover {
     color: beige;
     text-decoration: underline;
+}
+.forms {
+    
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 1rem 0.5rem 0 0.5rem;
+}
+fieldset {
+    border: 1px solid green;
+    border-radius: 7px;
+    margin-top: 1rem;
+    
+}
+
+input:not([type=radio],[type=checkbox]) {
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(207, 199, 199);
+    padding: 0.3rem;
+    margin-top: 0.2rem;
+    width: 40%;
+}
+.submit {
+    margin-top: 1rem;
+    border-radius: 7%;
+    border: none;
+    padding: 0.7rem 0.5rem;
+    background-color: green;
+    font-weight: bold;
+    color: white;
+}
+.submit:hover {
+    background-color: white;
+    color: black
+}
+select {
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(207, 199, 199);
 }
